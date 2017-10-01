@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f58e436db4b1113c1523dea8a17204a8",
+    "content-hash": "3e5efd538851de9195b237aa840ec65f",
     "packages": [
         {
             "name": "bshaffer/oauth2-server-php",
@@ -347,73 +347,6 @@
             ],
             "abandoned": "guzzlehttp/guzzle",
             "time": "2014-01-28T22:29:15+00:00"
-        },
-        {
-            "name": "humbug/humbug",
-            "version": "1.0.0-alpha2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/humbug/humbug.git",
-                "reference": "06b1c059e432dab8c22c36bc8b6e1ffc7e587c07"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/humbug/humbug/zipball/06b1c059e432dab8c22c36bc8b6e1ffc7e587c07",
-                "reference": "06b1c059e432dab8c22c36bc8b6e1ffc7e587c07",
-                "shasum": ""
-            },
-            "require": {
-                "padraic/phar-updater": "^1.0.0",
-                "padraic/phpunit-accelerator": "^1.0.2",
-                "padraic/phpunit-extensions": "^1.0.0",
-                "php": ">=5.4.0",
-                "phpunit/phpunit": "^4.5|^5.0",
-                "sebastian/diff": "^1.1",
-                "symfony/console": "^2.6|^3.0",
-                "symfony/event-dispatcher": "^2.6|^3.0",
-                "symfony/finder": "^2.6|^3.0",
-                "symfony/process": "^2.6|^3.0"
-            },
-            "require-dev": {
-                "behat/behat": "^3.0.15",
-                "mikey179/vfsstream": "^1.4",
-                "mockery/mockery": "^0.9",
-                "symfony/filesystem": "^2.6|^3.0"
-            },
-            "bin": [
-                "bin/humbug"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Humbug\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Pádraic Brady",
-                    "email": "padraic.brady@gmail.com",
-                    "homepage": "http://blog.astrumfutura.com"
-                }
-            ],
-            "description": "Humbug is a Mutation Testing framework for PHP. Whereas Code Coverage can tell you what code your tests are executing, Mutation Testing is intended to help you judge how well your unit tests actually perform and where they could be improved.",
-            "homepage": "https://github.com/padraic/humbug",
-            "keywords": [
-                "coverage",
-                "mutation testing",
-                "testing",
-                "unit testing"
-            ],
-            "time": "2016-08-01T10:27:00+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -2571,9 +2504,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "humbug/humbug": 15
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
